@@ -1,0 +1,41 @@
+/* Center layout */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    text-align: center;
+}
+
+/* Button */
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #00c6ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: #0072ff;
+}
+
+/* Color box */
+#box {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    border: 3px solid black;
+    transition: 0.4s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
